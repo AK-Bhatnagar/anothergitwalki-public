@@ -1,5 +1,5 @@
 import os
-#path = "my-treerd-folder"
+path = "my-treerd-folder"
 print(os.environ['CNVRG_JOB_ID'])
 os.chdir('output')
 for i in range (1, 10000):
